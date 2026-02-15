@@ -66,7 +66,7 @@ export default function App() {
       setProgress(`Parsing page ${i} of ${pdf.numPages}...`);
     }
 
-    setProgress("PDF fully parsed.");
+    setProgress("");
   };
 
   // FAST FIRST PAGE PARSE
