@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.upload-btn:hover {
+  background: #4338ca;
+}
+
+.status {
+  margin: 12px 0;
+  color: #555;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background: #10b981;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background: #059669;
+}
+
+.danger-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background: #ef4444;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.danger-btn:hover {
+  background: #dc2626;
+}
+
+.nav-group {
+  margin-top: 12px;
+}
+
+.nav-group button {
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-group button:hover {
+  background: #4f46e5;
+}
